@@ -17,5 +17,6 @@ class Car:
     Engine = Engine()
 
 
-car = Car()
-car.Engine.CruiseControl.set_cruise_speed(15)
+if __name__ == "__main__":
+    car = Car()
+    car.Engine.CruiseControl.set_cruise_speed(15)
